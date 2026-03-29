@@ -257,7 +257,7 @@ if __name__ == "__main__":
     if args.out:
         output_path = args.out
     else:
-        output_path = args.yml.parent / f"{args.yml.stem}_UCD.docx"
+        output_path = args.yml.parent / f"{args.yml.stem}_As-Built.docx"
 
     # Auto-discover logic
     if args.auto_subs:
