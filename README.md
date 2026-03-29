@@ -2,11 +2,11 @@
 
 **Professional As-Built Document Generator for Cortex XSOAR Playbooks**
 
-Automatically converts any Cortex XSOAR playbook (`.yml`) into a **clean, enriched, professional As-Built document** in Microsoft Word — ready for customer delivery.
+Automatically converts any Cortex XSOAR playbook (`.yml`) into a **clean, enriched, professional As-Built document** in Word.
 
 ### Why this tool brings real value
 
-PS consultants and XSOAR administrators waste hours manually creating UCD / As-Built documents.  
+PS consultants and XSOAR Engineers waste hours manually creating UCD / As-Built documents.  
 This tool **eliminates that manual work** by generating complete, beautifully formatted documents in seconds — including full flow logic, conditional tasks with real conditions, transformers, arguments, and sub-playbooks.
 
 **Saves hours of repetitive work on every single playbook.**
