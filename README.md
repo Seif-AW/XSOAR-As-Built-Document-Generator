@@ -7,14 +7,14 @@ Automatically converts any Cortex XSOAR playbook (`.yml`) into a **clean, enrich
 ### Why this tool brings real value
 
 PS consultants and XSOAR Engineers waste hours manually creating UCD / As-Built documents.  
-This tool **eliminates that manual work** by generating complete, beautifully formatted documents in seconds — including full flow logic, conditional tasks with real conditions, transformers, arguments, and sub-playbooks.
+This tool **eliminates that manual work** by generating complete, beautifully formatted documents in seconds including full flow logic, conditional tasks with real conditions, transformers, arguments, and sub-playbooks.
 
 **Saves hours of repetitive work on every single playbook.**
 
 ### Key Features
 
 - Automatically generates professional As-Built documents from any playbook YML file
-- Full support for sub-playbooks (recursive — shows detailed flow tables for every included sub-playbook)
+- Full support for sub-playbooks (recursive shows detailed flow tables for every included sub-playbook)
 - Rich representation of conditional tasks with actual conditions displayed
 - Clear display of transformers, complex arguments, and script details
 - Easy customization of customer name and consultant name via command-line arguments
