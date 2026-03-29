@@ -6,10 +6,7 @@ Automatically converts XSOAR playbook `.yml` files into beautiful, white-labeled
 
 ![Example Screenshot](screenshot.png)
 
-### ✨ Features
 - Full **Montserrat** font across the entire document
-- Beautiful green professional table headers
-- Perfectly balanced columns
 - Recursive sub-playbook support
 - Auto current date + customizable customer name
 - `--auto-subs` smart discovery
