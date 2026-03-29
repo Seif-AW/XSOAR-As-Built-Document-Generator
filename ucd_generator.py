@@ -248,8 +248,8 @@ if __name__ == "__main__":
     parser.add_argument("--subs", type=Path, default=None, help="Folder with sub-playbooks (optional)")
     parser.add_argument("--auto-subs", action="store_true", help="Auto-discover sub-playbooks in same folder as main YML")
     parser.add_argument("--out", type=Path, help="Output filename")
-    parser.add_argument("--customer", default="Banque Misr SOC", help="Customer name")
-    parser.add_argument("--ps", default="Seif Abdelwahid – Palo Alto Networks", help="PS / Consultant name")
+    parser.add_argument("--customer", default="Customer Name", help="Customer name")
+    parser.add_argument("--ps", default="Your Name – Your Company", help="PS / Consultant name")
     args = parser.parse_args()
     with open(args.yml, encoding="utf-8") as f:
         main = yaml.load(f, Loader=XSOARLoader)
