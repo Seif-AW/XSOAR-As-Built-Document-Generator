@@ -5,7 +5,7 @@
 Automatically transforms any XSOAR playbook (`.yml`) into a **clean, enriched, professional As-Built document** ready for customer delivery.
 
 ### Why this tool exists
-PS consultants and XSOAR administrators spend hours manually creating UCD / As-Built documents.  
+PS consultants and XSOAR engineers spend hours manually creating UCD / As-Built documents.  
 This tool **eliminates that manual work** by generating complete, beautifully formatted Microsoft Word documents in seconds  including full flow logic, conditional tasks with real conditions, transformers, arguments, sub-playbooks, and more.
 
 **Saves hours of repetitive work** for every playbook.
