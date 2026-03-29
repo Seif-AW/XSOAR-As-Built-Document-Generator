@@ -1,4 +1,4 @@
-# XSOAR UCD Generator
+# XSOAR As-Built Generator
 
 **Professional As-Built Document Generator for Cortex XSOAR Playbooks**
 
