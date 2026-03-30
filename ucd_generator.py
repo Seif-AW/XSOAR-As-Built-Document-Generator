@@ -116,7 +116,7 @@ def build_next_step_text(nexttasks, tasks):
         for task_id in ids:
             name = get_task_name(tasks, task_id)
             lines.append(f"{lbl} → {name}")
-        lines.append("")                    # ← new blank line between paths
+        lines.append("")                    
     return "\n".join(lines).strip() or "Next"
 
 def add_flow_table(doc, tasks, title):
@@ -143,9 +143,8 @@ def add_flow_table(doc, tasks, title):
         run.font.name = 'Montserrat'
         run.font.color.rgb = RGBColor(255, 255, 255)
         run.font.bold = True
-        run.font.size = Pt(10)          # smaller = no ugly wrapping
+        run.font.size = Pt(10)          
 
-    # === Perfect column widths (matches your clean screenshot) ===
     widths = [Pt(215), Pt(180), Pt(125), Pt(155)]
     for i, col in enumerate(table.columns):
         col.width = widths[i]
@@ -235,7 +234,6 @@ def add_flow_table(doc, tasks, title):
 
     visit("0")
 
-    # === Apply Montserrat to ALL table text ===
     for row in table.rows:
         for cell in row.cells:
             for paragraph in cell.paragraphs:
